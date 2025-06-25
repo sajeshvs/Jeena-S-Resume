@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Jeena M.S.</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts for typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <style>
+        /* Custom styles for the new design */
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f4f7f6;
+        }
+        .editable {
+            transition: background-color 0.3s ease;
+        }
+        .editable:hover, .editable:focus {
+            background-color: #fff9c4; /* Soft yellow highlight on edit */
+            outline: 1px dashed #fbc02d;
+            border-radius: 2px;
+        }
+        h1, h2, h3, h4, .font-montserrat {
+            font-family: 'Montserrat', sans-serif;
+        }
+        .sidebar {
+            background-color: #1c2a39; /* Deep navy blue */
+        }
+        .accent-color {
+            color: #d4af37; /* A warm, metallic gold */
+        }
+        .accent-bg {
+            background-color: #d4af37;
+        }
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -30px;
+            top: 4px;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background-color: #d4af37;
+            border: 3px solid #f4f7f6;
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+
+    <!-- Main resume container -->
+    <div class="max-w-5xl mx-auto my-12 bg-white shadow-2xl rounded-lg overflow-hidden flex flex-col md:flex-row">
+
+        <!-- Sidebar -->
+        <aside class="sidebar w-full md:w-1/3 p-8 text-white">
+            <div class="flex flex-col items-center text-center">
+                <div class="w-32 h-32 rounded-full mb-4 bg-white/10 border-4 border-white/20 flex items-center justify-center">
+                    <i class="fas fa-user-tie text-6xl text-white/50"></i>
+                </div>
+                <h1 contenteditable="true" class="editable text-3xl font-bold">Jeena M.S.</h1>
+                <p contenteditable="true" class="editable text-lg text-white/80 mt-1">Mentor Teacher & Electronics Pro</p>
+            </div>
+
+            <div class="mt-10">
+                <h2 class="text-xl font-bold uppercase tracking-wider accent-color">Contact</h2>
+                <div class="w-16 border-b-2 border-yellow-500/50 my-3"></div>
+                <div contenteditable="true" class="editable text-sm space-y-3">
+                    <p><i class="fas fa-phone fa-fw mr-3 accent-color"></i>+91 7306795439</p>
+                    <p><i class="fas fa-envelope fa-fw mr-3 accent-color"></i>jeenasajesh2020@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt fa-fw mr-3 accent-color"></i>Vaduvanchal, Wayanad, Kerala</p>
+                </div>
+            </div>
+            
+            <div class="mt-10">
+                <h2 class="text-xl font-bold uppercase tracking-wider accent-color">Technical Skills</h2>
+                 <div class="w-16 border-b-2 border-yellow-500/50 my-3"></div>
+                <div class="flex flex-wrap gap-2 text-sm" contenteditable="true">
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Robotics Instruction</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">STEM Curriculum</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Arduino</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Raspberry Pi</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Circuit Assembly</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">ATL Lab Management</span>
+                </div>
+            </div>
+
+            <div class="mt-10">
+                <h2 class="text-xl font-bold uppercase tracking-wider accent-color">Creative Skills</h2>
+                <div class="w-16 border-b-2 border-yellow-500/50 my-3"></div>
+                <div class="flex flex-wrap gap-2 text-sm" contenteditable="true">
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Expert Tailoring</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Garment Design</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Pattern Making</span>
+                    <span class="bg-white/10 py-1 px-3 rounded-full">Embroidery</span>
+                </div>
+            </div>
+
+            <div class="mt-10">
+                <h2 class="text-xl font-bold uppercase tracking-wider accent-color">Education</h2>
+                <div class="w-16 border-b-2 border-yellow-500/50 my-3"></div>
+                <div contenteditable="true" class="editable">
+                    <h4 class="font-bold">Diploma in Electronics Eng.</h4>
+                    <p class="text-sm text-white/80">Govt. Polytechnic College, Meppady</p>
+                    <p class="text-xs text-white/60 italic">2008 - First Class</p>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="w-full md:w-2/3 p-10">
+            <section class="mb-10">
+                <h2 class="text-3xl font-bold text-gray-800 font-montserrat">Career Summary</h2>
+                <div class="w-20 border-b-4 border-yellow-500 my-4"></div>
+                <p contenteditable="true" class="editable text-gray-600 leading-relaxed">
+                    A results-driven Mentor Teacher with a Diploma in Electronics and over 9 years of experience in fostering innovation within educational settings. Expert in developing and executing STEM curricula for Atal Tinkering Labs, with a proven track record of guiding students to success in competitive events. Combines deep technical knowledge in robotics and electronics with an entrepreneurial spirit, demonstrated through a successful tailoring business.
+                </p>
+            </section>
+            
+            <section>
+                <h2 class="text-3xl font-bold text-gray-800 font-montserrat">Experience</h2>
+                <div class="w-20 border-b-4 border-yellow-500 my-4"></div>
+                <div class="relative border-l-2 border-gray-200 ml-4">
+                    <div class="space-y-12 pl-10">
+                        <!-- Govt High School Experience -->
+                        <div class="relative timeline-item">
+                            <h3 contenteditable="true" class="editable text-xl font-bold text-gray-700">Mentor Teacher, Atal Tinkering Lab</h3>
+                            <p contenteditable="true" class="editable text-md text-gray-500">Govt. High School Beenachi, Sulthan Bathery, Wayanad</p>
+                            <p contenteditable="true" class="editable text-sm accent-color font-semibold">Sep 2022 - Sep 2024</p>
+                            <ul contenteditable="true" class="editable mt-3 list-disc list-inside text-gray-600 space-y-2 text-sm">
+                                <li>Orchestrated the Atal Tinkering Lab for 2 years, providing dedicated mentorship in Robotics, Electronics, and innovative thinking.</li>
+                                <li>Authored and implemented a hands-on curriculum that boosted student participation in STEM projects by 50%.</li>
+                                <li>Guided student teams to win top accolades in multiple district and state-level science and technology exhibitions.</li>
+                                <li>Recognized officially for excellent conduct and significant contributions to the school's STEM ecosystem.</li>
+                            </ul>
+                        </div>
+                        <!-- Freelance Experience -->
+                        <div class="relative timeline-item">
+                            <h3 contenteditable="true" class="editable text-xl font-bold text-gray-700">Freelance Robotics Instructor</h3>
+                            <p contenteditable="true" class="editable text-md text-gray-500">Community Workshops, Wayanad</p>
+                            <p contenteditable="true" class="editable text-sm accent-color font-semibold">Jun 2015 - Aug 2022</p>
+                            <ul contenteditable="true" class="editable mt-3 list-disc list-inside text-gray-600 space-y-2 text-sm">
+                                <li>Designed and delivered over 30 robotics workshops for 500+ students, focusing on Arduino and Raspberry Pi platforms.</li>
+                                <li>Pioneered project-based modules that improved logical thinking and teamwork skills among participants.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+             <section class="mt-12">
+                <h2 class="text-3xl font-bold text-gray-800 font-montserrat">Accomplishments</h2>
+                <div class="w-20 border-b-4 border-yellow-500 my-4"></div>
+                <div contenteditable="true" class="editable text-sm mt-3 space-y-2 text-gray-600">
+                    <p><i class="fas fa-trophy fa-fw accent-color mr-2"></i>Led a student team to win <strong>1st Place</strong> for design efficiency in the District Robotics Competition.</p>
+                    <p><i class="fas fa-award fa-fw accent-color mr-2"></i>Received a formal <strong>Certificate of Experience</strong> from GHSS Beenachi for outstanding contributions as a Mentor Teacher.</p>
+                    <p><i class="fas fa-cut fa-fw accent-color mr-2"></i>Established and managed a freelance tailoring business, building a base of over 50 loyal clients through quality craftsmanship.</p>
+                </div>
+             </section>
+        </main>
+    </div>
+</body>
+</html>
